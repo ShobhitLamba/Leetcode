@@ -7,8 +7,7 @@ class Solution:
                     popped = stack.pop() if stack else c
                 else:
                     stack.append(c)
-            print(stack)
+            
             return stack
 
         return helper(s) == helper(t)
-        
